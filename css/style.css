@@ -1,0 +1,25 @@
+#navbarNav {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+.sticky-wrapper {
+    background-color: #2957A4;
+}
+
+.featured-section {
+    background-color: #A2CE60;
+}
+
+.explore-section {
+    max-height: 2000px;
+}
