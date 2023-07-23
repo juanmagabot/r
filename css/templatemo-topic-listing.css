@@ -118,12 +118,12 @@ button {
 
 a {
     display: inline-block;
-    color: var(--primary-color);
+    color: var(--white-color);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--link-hover-color);
+    color: var(--primary-color);
 }
 
 b,
@@ -941,25 +941,12 @@ blockquote {
 -----------------------------------------*/
 
 footer {
-    background-color: rgb(240, 238, 238);
+    background-color: var(--secondary-color);
 }
 
 .site-footer {
-    border-bottom: 10px solid var(--secondary-color);
+    border-bottom: 10px solid var(--white-color);
     position: relative;
-}
-
-.site-footer::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 200px 200px;
-    border-color: transparent transparent var(--secondary-color) transparent;
-    pointer-events: none;
 }
 
 .site-footer-title {
@@ -1011,7 +998,7 @@ footer {
 }
 
 .site-footer-link {
-    color: var(--secondary-color);
+    color: var(--white-color);
     font-size: var(--copyright-font-size);
     font-weight: var(--font-weight-medium);
     line-height: normal;
@@ -1019,41 +1006,6 @@ footer {
 
 .copyright-text {
     font-size: var(--copyright-font-size);
-}
-
-
-/*---------------------------------------
-  SOCIAL ICON               
------------------------------------------*/
-
-.social-icon {
-    margin: 0;
-    padding: 0;
-}
-
-.social-icon-item {
-    list-style: none;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.social-icon-link {
-    background: var(--secondary-color);
-    border-radius: var(--border-radius-large);
-    color: var(--white-color);
-    font-size: var(--copyright-font-size);
-    display: block;
-    margin-right: 10px;
-    text-align: center;
-    width: 35px;
-    height: 35px;
-    line-height: 36px;
-    transition: background 0.2s, color 0.2s;
-}
-
-.social-icon-link:hover {
-    background: var(--primary-color);
-    color: var(--white-color);
 }
 
 
