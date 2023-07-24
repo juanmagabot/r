@@ -894,11 +894,6 @@ blockquote {
     border-radius: var(--border-radius-medium);
 }
 
-.contact-form .form-floating>textarea {
-    border-radius: var(--border-radius-medium);
-    height: 150px;
-}
-
 
 /*---------------------------------------
   SUBSCRIBE FORM               
@@ -914,53 +909,11 @@ blockquote {
 
 
 /*---------------------------------------
-  CUSTOM FORM               
------------------------------------------*/
-
-.custom-form .form-control {
-    border-radius: var(--border-radius-large);
-    color: var(--p-color);
-    margin-bottom: 24px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 20px;
-    outline: none;
-}
-
-.form-floating>label {
-    padding-left: 20px;
-}
-
-.custom-form button[type="submit"] {
-    background: var(--custom-btn-bg-color);
-    border: none;
-    border-radius: var(--border-radius-large);
-    color: var(--white-color);
-    font-family: var(--title-font-family);
-    font-size: var(--p-font-size);
-    font-weight: var(--font-weight-semibold);
-    transition: all 0.3s;
-    margin-bottom: 0;
-}
-
-.custom-form button[type="submit"]:hover,
-.custom-form button[type="submit"]:focus {
-    background: var(--custom-btn-bg-hover-color);
-    border-color: transparent;
-}
-
-
-/*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
 
 footer {
     background-color: var(--secondary-color);
-}
-
-.site-footer {
-    border-bottom: 10px solid var(--white-color);
-    position: relative;
 }
 
 .site-footer-title {
